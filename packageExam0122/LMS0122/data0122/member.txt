@@ -1,0 +1,4 @@
+kkw|1234|김기원|admin|True
+lhj|1234|임효정|manage|True
+ljj|1234|이재정|user|True
+ji0|1234|김지영|admin|True

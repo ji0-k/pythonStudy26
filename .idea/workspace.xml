@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dd83d7fd-bb77-4b4b-b10b-3d982f40288d" name="변경" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="37gxVCXKSt1SD6bJbybZvAvqjvf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.05Main.executor": "Run",
+    "Python.05Main_A.executor": "Run",
+    "Python.06.executor": "Run",
+    "Python.06kiosk.executor": "Run",
+    "Python.06kiosk2.executor": "Run",
+    "Python.BoardService.executor": "Run",
+    "Python.Calulator2.executor": "Run",
+    "Python.ClasskjyExam.executor": "Run",
+    "Python.FourCal.executor": "Run",
+    "Python.ItemExam.executor": "Run",
+    "Python.Main.executor": "Run",
+    "Python.Main2.executor": "Run",
+    "Python.Member.executor": "Run",
+    "Python.MemberExam.executor": "Run",
+    "Python.MemberK (1).executor": "Run",
+    "Python.MemberK.executor": "Run",
+    "Python.MemberService.executor": "Run",
+    "Python.MemberService완결.executor": "Run",
+    "Python.Menu3.executor": "Run",
+    "Python.Session.executor": "Run",
+    "Python.__init__.executor": "Run",
+    "Python.board.executor": "Run",
+    "Python.borad 2.executor": "Run",
+    "Python.calculator.executor": "Run",
+    "Python.ddddd.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.many_error.executor": "Run",
+    "Python.memberTxtExam.executor": "Run",
+    "Python.mod1.executor": "Run",
+    "Python.process_score.executor": "Run",
+    "Python.scores.executor": "Run",
+    "Python.sexyearadd.executor": "Run",
+    "Python.ss.executor": "Run",
+    "Python.try_else.executor": "Run",
+    "Python.try_except.executor": "Run",
+    "Python.갈아엎은거 주석 달기.executor": "Run",
+    "Python.다시복습.executor": "Run",
+    "Python.따라쓰기.executor": "Run",
+    "Python.리딩.executor": "Run",
+    "Python.복습.executor": "Run",
+    "Python.최처치ㅓ.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/python_study/0122packageExam/game/graphic",
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\python_study\0122packageExam\game\graphic" />
+      <recent name="C:\python_study\0122packageExam\game\play" />
+      <recent name="C:\python_study\0122packageExam\game\sound" />
+      <recent name="C:\python_study\JUMP" />
+      <recent name="C:\python_study" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\python_study\packageExam" />
+      <recent name="C:\python_study\packageExam0122" />
+      <recent name="C:\python_study" />
+      <recent name="C:\python_study\JUMP\classExam" />
+      <recent name="C:\python_study\미션" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-f2b7a9f6281b-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="dd83d7fd-bb77-4b4b-b10b-3d982f40288d" name="변경" comment="" />
+      <created>1767338536476</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1767338536476</updated>
+    </task>
+    <servers />
+  </component>
+</project>
