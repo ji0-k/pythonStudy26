@@ -29,7 +29,7 @@ class Session:
         ) #dict type으로 처리함
 
 
-    @staticmethod
+    @classmethod
     def login(cls, member): #  MemberService에서 로그인시 객체를 담아놈
         cls.login_member = member
 
