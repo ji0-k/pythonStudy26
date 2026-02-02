@@ -1,33 +1,32 @@
-# DB접속 관리 , 차후에 프론트엔드영역인 웹브라우저에서 세션 처리한다.
-# Html, CSS , Js : W3C 웹표준
-# 파이참에도 DB관리 메뉴 있음
+# 세션에서 db 접속도 관리하자!!!
+# 현재 세션으로 상태관리를 하는데 차후에
+# 프론트를 배우면 웹브라우져에서 세션을 처리한다.
+# html + css + js : w3c라고 부른다. 웹표준!!!
+# 차후에는 이곳이 db관리하는 connetion 영역이 될 것이다.
 
-#멤버서비스에서 로그인할때 객체 담아놓기,
-#로그인
-#로그아웃
-#권한체크, admin, manage
+# 파이참에도 db를 관리하는 메뉴가 있다.
+# 오른쪽 버튼에 db 선택함 -> mysql 워크벤치 대타용
 
-
-import pymysql
-# 외부에서 가져온 pymysql 터미널에서 위치 맞는지 확인후
-# pip install pymysql 설치 삭제시에는 uninstall
+import pymysql # pip install pymysql 터미널 설치 필수
+               # pip install cryptography  mysql인증안되면 설치
 
 class Session:
+
     login_member = None
 
     @staticmethod
-    def get_connection():
-        #print("DB연결")
-        return pymysql.connect( # root계정 생성 쿼리정보 대소문자 확인
+    def get_connection(): # 데이터베이스에 연결용 코드
+        print("get_connection()메서드 호출 - mysql에 접속됩니다.")
+
+        return pymysql.connect(
             host='localhost',
             user='mbc',
-            password='1234',
+            password='1234',  # 본인의 비밀번호로 변경
             db='lms',
             charset='utf8mb4',
-            cursorclass = pymysql.cursors.DictCursor
-
-        ) #dict type으로 처리함
-
+            cursorclass=pymysql.cursors.DictCursor
+            # dict 타입으로 처리함 (딕셔너리타입 k : v )
+        )
 
     @classmethod
     def login(cls, member): #  MemberService에서 로그인시 객체를 담아놈
@@ -40,7 +39,7 @@ class Session:
     @classmethod
     def is_login(cls): # 로그인 상태를 확인
         return cls.login_member is not None
-      # 로그인 = True/ None = False
+        # 로그인 했으면 True / None False
 
     # 추가: 권한 체크 메서드 (서비스 계층에서 사용됨)
     @classmethod
@@ -52,4 +51,3 @@ class Session:
     def is_manager(cls):
         # 매니저이거나 어드민이면 참 (보통 어드민이 매니저 권한을 포함함)
         return cls.is_login() and cls.login_member.role in ("manager", "admin")
-        #  #로그인 = True이고 and 로그인 권한이 매니저나, 관리자 이면 참

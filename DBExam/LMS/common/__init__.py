@@ -1,4 +1,5 @@
-# common 패키지의 경로?
 from LMS.common.Session import Session
-__all__ = ['Session']
+from LMS.domain.Board import Board
 
+__all__ = ['Session']
+# 패키지 import 뒤에 * 처리용
