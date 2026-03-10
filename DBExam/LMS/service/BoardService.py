@@ -132,7 +132,6 @@ class BoardService:
                     input("엔터를 누르면 목록으로 돌아갑니다.")
         finally:
             conn.close()
-S
 
         pass
 

@@ -1,6 +1,7 @@
 # 주 실행코드 (메인메뉴등을 관리한다.)
 from LMS.service import *
-from LMS.common.Session import Session
+from LMS.common.session import Session
+
 
 def main():
     # 프로그램 시작용 코드
